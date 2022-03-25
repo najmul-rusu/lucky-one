@@ -1,0 +1,74 @@
+[
+    {
+        "id": "623df6e3c8628f570c634b00",
+        "name": "Yamaha FZS FI Deluxe",
+        "price": 723944,
+        "img": "images/bd-1-50-300x300.jpg"
+    },
+    {
+        "id": "623df6e3ea4e5fa00a11a3f6",
+        "name": "Yamaha FZ-X",
+        "price": 321483,
+        "img": "images/bd-1-51-300x300.jpg"
+    },
+    {
+        "id": "623df6e3c466350c52fba86e",
+        "name": "Yamaha R15 V3",
+        "price": 690926,
+        "img": "images/bd-1-52-300x300.jpg"
+    },
+    {
+        "id": "623df6e33e76375bdc18b244",
+        "name": "Yamaha R15M",
+        "price": 717473,
+        "img": "images/Yamaha-R15M-Gray-Price-in-Bangladesh-300x300.jpg"
+    },
+    {
+        "id": "623df6e32bf4978be5447d0e",
+        "name": "Yamaha XSR 125",
+        "price": 243416,
+        "img": "images/bd-3-34-300x300.jpg"
+    },
+    {
+        "id": "623df700e83ff15f67f2aed5",
+        "name": "Yamaha R15 R15S",
+        "price": 76226,
+        "img": "images/Yamaha-FZS-FI-Delux-Metallic-black-Price-in-Bangladesh-300x300.jpg"
+    },
+    {
+        "id": "623df7000cd5fd14212f6fdd",
+        "name": "Yamaha R15 1000cc",
+        "price": 34080,
+        "img": "images/Yamaha-R15-V3-indonesia-Version-Price-in-Bangladesh-300x300.jpg"
+    },
+    {
+        "id": "623df70069fd2e2f0720d696",
+        "name": "Yamaha YZF R1",
+        "price": 678929,
+        "img": "images/Yamaha-R15-v3-Movistar-300x300.jpg"
+    },
+    {
+        "id": "623df7004e2f627dac76e35c",
+        "name": "Yamaha R15 v3",
+        "price": 323372,
+        "img": "images/Yamaha-R15s-300x300.jpg"
+    },
+    {
+        "id": "623df7006c1f0f5fe9a62b04",
+        "name": "Yamaha R15 V3 Indian",
+        "price": 472452,
+        "img": "images/Yamaha-YZF-R1-Price-in-Bangladesh-300x300.jpg"
+    },
+    {
+        "id": "623df700c5274a78bee13c42",
+        "name": "Yamaha R15 v2",
+        "price": 123106,
+        "img": "images/Yamaha-YZF-R1000-Price-in-Bangladesh-300x300.jpg"
+    },
+    {
+        "id": "623df700e40c8a064b112c86",
+        "name": "Yamaha v4",
+        "price": 231966,
+        "img": "images/Yamaha-R15-V4-Blue-Price-in-Bangladesh-300x300.jpg"
+    }
+]
