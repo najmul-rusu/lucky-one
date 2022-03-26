@@ -11,7 +11,27 @@
 .cart-container{
     background-color: antiquewhite;
     margin-left: 20px;
-    padding-left: 10px;
+    padding: 0px 10px;
+}
+.choose-btn{
+    width: 100%;
+    background-color: #56ac00;
+    color: white;
+    margin-bottom: 10px;
+    border: 0px;
+}
+.choose-btn:hover{
+    background-color: #428500;
+}
+.delete-btn{
+    width: 100%;
+    background-color: #f00000;
+    color: white;
+    margin-bottom: 10px;
+    border: 0px;
+}
+.delete-btn:hover{
+    background-color: #b40000;
 }
 
 @media only screen and (max-width:688px) {

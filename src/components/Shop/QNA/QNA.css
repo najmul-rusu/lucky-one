@@ -18,3 +18,10 @@ td, th {
 th{
     text-align: center;
 }  
+
+@media only screen and (max-width:688px) {
+
+    .qna{
+        margin: 10px;
+    }
+}

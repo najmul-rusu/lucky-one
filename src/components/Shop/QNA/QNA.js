@@ -35,6 +35,9 @@ const QNA = () => {
                         <td>States are passed inside a component.</td>
                         </tr>
                     </tbody>
+                    <tfoot>
+                        
+                    </tfoot>
                 </table>
             </div>
         </div>
