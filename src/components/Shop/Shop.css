@@ -13,6 +13,14 @@
     margin-left: 20px;
     padding: 0px 10px;
 }
+.cart-iterm{
+    display: flex;
+    align-items: center;
+}
+.cart-iterm img{
+    width: 25%;
+    border-radius: 50%;
+}
 .choose-btn{
     width: 100%;
     background-color: #56ac00;

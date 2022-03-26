@@ -40,7 +40,10 @@ const Shop = () => {
             <div className='cart-container'>
                 <h2>Selected Item</h2>
                 {cart.map((item)=>
-                <p key={item.id}>{item.name}</p>
+                <div className='cart-iterm'>
+                <img src={item.img} alt="" />
+                <p key={item.id}> &nbsp;{item.name}</p>
+                </div>
                 )}
                 <button onClick={chooseButton} className='choose-btn'><p>CHOOSE 1 FOR ME</p></button>
                 <button onClick={deleteButton} className='delete-btn'><p>CHOOSE AGAIN</p></button>
