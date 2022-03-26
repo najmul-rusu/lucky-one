@@ -16,9 +16,9 @@ const Shop = () => {
         const newCart = [...cart, product];
         setCart(newCart);
     }
-    const chooseButton = (product)=>{
-        console.log(product)
-    const randomProduct = [];
+    const chooseBtn = ()=>{
+        const carts = cart[Math.floor(Math.random() * cart.length)];
+    const randomProduct = [carts];
     setCart (randomProduct);
     }
     const deleteButton = ()=>{
@@ -45,7 +45,7 @@ const Shop = () => {
                 <p key={item.id}> &nbsp;{item.name}</p>
                 </div>
                 )}
-                <button onClick={chooseButton} className='choose-btn'><p>CHOOSE 1 FOR ME</p></button>
+                <button onClick={chooseBtn} className='choose-btn'><p>CHOOSE 1 FOR ME</p></button>
                 <button onClick={deleteButton} className='delete-btn'><p>CHOOSE AGAIN</p></button>
             </div>
         </div>
