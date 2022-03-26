@@ -16,6 +16,9 @@ const Shop = () => {
         const newCart = [...cart, product];
         setCart(newCart);
     }
+    const deleteButton = (clicked)=>{
+        console.log(clicked)
+    }
 
     return (
         <div className='shop-container'>
@@ -28,11 +31,13 @@ const Shop = () => {
                       ></Product>)
               }
             </div>
-            <div>
-                <h1>order summary</h1>
+            <div className='cart-container'>
+                <h2>Selected Item</h2>
                 {cart.map((item)=>
                 <p key={item.id}>{item.name}</p>
                 )}
+                {/* <button onClick={chooseButton} className='choose-btn'><p>CHOOSE 1 FOR ME</p></button> */}
+                <button onClick={deleteButton} className='delete-btn'><p>CHOOSE AGAIN</p></button>
             </div>
         </div>
     );

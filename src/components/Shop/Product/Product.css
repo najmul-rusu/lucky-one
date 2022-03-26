@@ -8,6 +8,9 @@
 .product img{
     width: 286px;
     height: 286px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .product-info{
     text-align: center;
@@ -31,4 +34,19 @@
 }
 .cart-btn:hover{
     background-color: burlywood;
+}
+
+@media only screen and (max-width:688px) {
+
+    .product{
+        width: 100%;
+        height: 420px;
+        border: 1px solid gray;
+        border-radius: 8px;
+        position: relative;
+    }
+    .product img{
+        width: 250px;
+        height: 250px;
+    }
 }

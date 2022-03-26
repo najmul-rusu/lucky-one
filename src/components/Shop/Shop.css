@@ -8,3 +8,26 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+.cart-container{
+    background-color: antiquewhite;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+@media only screen and (max-width:688px) {
+
+    .shop-container{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 10px;
+    }
+    .product-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 10px;
+    }
+    .cart-container{
+        margin: 0px;
+        padding: 10px;
+    }
+}
